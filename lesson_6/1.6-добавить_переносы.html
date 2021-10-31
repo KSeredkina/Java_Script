@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8lgarZMGkyTojH5NIqmJmHaGP74ctI83i3deN9N9sN4ubqryqVB4XBd4QYbIbRoUhNa0OuTHlW94zeaWmN89ytACa7C5lQFv4vnYml682iNFrfvoKBGBopTCwzGPrB6OtFYZJthwL9L477RcHfuHlLY7VHCYwsHoYSQVXcz7_iQZgc9k9YXX-nAmPZXIr03j1xPL6iGkrQtxmCaxpwRlr-I8aXHIYq0SfCg8_UT4wePubuUfJAQ758sB7Bb3gInjEG8_17wDxfZYVlEn6Jbdbz843O6zh76lihFmEmpjmHA3_LJjJwGQAxZsgD4YLvCNJ394O_zfZk0oywswfXXj3VtWUYYIuEPKBOfx5nW0O796Jc0ZkktWMCy4omKQ0gI7fZ2ZZER7StZDKuU6EyjYq-5PvAOfKIqjOPS8Y4yYu5xiTZGzlB1aw2FRYQtunEvK2tVLdx5ZGCUmqLHC6yRE7A9iNH_dgCrsF-Xz1DMgN1GFoR2JAmOtdfRjhXxtyITD2QkDKM2yoCDNeL1bfB7Qd9UOdk9RZvGbTtFTy-u7_J2bDf6I_kVRsaddecFsQTvJmfCznKI9HH_ICP8oyiTZnQs_GuryMHNSW5QK0JwfH7rflk1aWAgDmDAjKNt14dI1t62LjtMSi4w8pPZyms57TVpLG3BkGHhieyzcJvGbLtshXjr5oaPr-W8eAlwh5mgbi1hth4Z8VWUCb4G14vfndupz8osHW-BMTnVrDFgFGiFb0e5Z9qP9Uy-9gzawuUrWH_7Y2HRNUS6cqggIn7TFlqV7H-5TtAeZXrvLSoOMyBsY8mQgHTPzYiCjlI1FqMx5YU-Joya3GzpPWAnJPFVwpZBBaiBTjPQ-Q81yoAz0Pu6XD4xe9aY8rAxHIpqCukKex8k3rdxryhUtBtO-x96FqGy71CtLkHYUSa-3a9Zd_I4-P4Br5lMqRyDr-6ktwU2kPXr-lwwcRAs4SdWU0dmHlrlpUkwl7QWCT1slZDDDjib2GoJswluFcCCo3Ju4qAy_7m0QiA2s1XtIy5Tc6s-Q991mLQw5YHCz01TWEbQIaGtLBEFuqRwJhPxU70KBPFFcPk3N7VVU0t8hW4NaJXzLRydx26RO-7dlssXx0WOdMJOMy4WGdvzxKsAsDGDUh64RyBO289SLPSLzvdTIVGxLUMXO7KcMHEcBnZHuEIeYPh2FiqLcTk3cQowqybRqRTv01_r2GdooEinXQpLjOd9pxQ4MVhGOFGJTeF9Mk7s1OvdM5NhnKhWXqBIuYqbcJalCioHZXaaLdP0EU8tnXDeePrhc_d2oD3Whwh7c99-achK0mFm2ONKkZ6gitd67FlbWHdmAbU-vAnXO1R5ZoZr85AFL6mYubahJsGo7ueQg8jlk3ZeFKq5y1NMiW6Y9CwB1SzK5c3PGuz7vGKDLprLsAQupN6XfBpL6ugEbgrK268X3xe22KOmPgqBNE07V95V83ZWO54KfFAozHlxZ4SmLce6KZyLl2-Hq6APs6kRnWEQwlvpH3Skba2h_ZbIyhxqDjnbBBmTPd4ZQew5rQugFFIYeXh-ajZ9TX60aJ9HutLo_6AY-Ey3uDbny4HfIuRs7-VuV43Jv5l5_NT6oBfGC9CKLpBcLaztQwUHyctVc4xhbHxR3PC2kyAYFZjkZQw09PJVop0b9jKsurVV9RU3ZfxTC8AVozfFZfs8-QsskRPshu5RiTsiJv6WvWvP2kC1_8TRXuVBqldPcUlsPOQEAL8M_ovK6wD3MHJqtfMyaWJln-MYKLyqjKVlaYmCAad6ScEZeTi16UpE0OHRV9BXDMoThjlafi1CsBYSGqGFbBt3lpJuzyewsUwvFOQ_f03jQ" charset="UTF-8"></script></head>
+<body>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+
+    <!-- 
+        Задание. Инпуты идут один за другим, надо сделать чтобы после каждого инпута
+        появился тег br, чтобы инпуты стали стоять один под другим. Для этого:
+        1. Получите все инпуты, например с помощью querySelectorAll.
+        2. Переберите их с помощью цикла или forEach, и после каждого инпута
+        встявляйте тег br, например с помощью insertAdjacentHTML.
+    -->
+
+    <script>
+        'use strict';
+        let inputs = document.querySelectorAll('input');
+        inputs.forEach(function (input) {
+            input.insertAdjacentHTML('afterend', '<br>');
+        });
+    </script>
+</body>
+</html>
