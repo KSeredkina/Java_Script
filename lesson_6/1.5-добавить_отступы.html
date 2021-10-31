@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7LnbevqY0EnKI-N8PnNogr7ofYB3JWgy1zjsBiGHfLQuFgD0rpGm79-YqCuQqMudaW9Cy8EumrW3ZDDwcB0DWsDYf1n_QxktVOq2t8TZL1I5xm4Zea8dWYGxH6yCguAYFYA08noFx3XRNUC6Coxa4UfGwjJRiYGzmfTZAi4C9QMmXXBNQeIr9t_3t0woqpCGqJhZdtpdG_Larjlc9SUZ_gN4-FuoCUOrNafJQJLDqlVqg_WYEqLYNkUNlVNyP2OB0iX_3bQNm5Rwgi2FdO8QkM5qOZg7mZ1TxnHVbPbsQ7vLDc6io9I4O6lfVr6Wn_PbwHJFM9MjZ4EvpvdyZlFHTjFwunHKmu4ql2EqTW1fmwRLIpwLv60NH8nhNN-M2bKHI92nRRIQ_2tqDqzbsRaKktv46AGe84oGLgrNfOY60KOKMQaYZnW6927KLDC8symfCRoktHrvdPBcaHl6JRV3JMNIXkWluLKDHIY7Hj3JgV4XSr5-65-oJ-wJogHpik3cAMDBXOR_Rjuf003AF790VSWblVsDEcemplOJzsma1YskV1ooZzfwPXn1mMJVDoskkhZ-N0q6hHkH7_fVC6yihTS3zxr4v8-PuEHpKA6wJqeJTWFrDMJGpmJXe9XDxFcxG7KoqoirfPKd-CfMhWdMt_ZgDynd4UNSPiqy9iUQMnOz67fT-xmqwmt0cdBGGcHgbvZv7uFKiGIfXXRBshtNZsGj6Mp65LJ6Qs4lNZkoU_aUtkoyHS4_Nab8Im1Mn76tduGFumwzDmBxI_kXipt9Z_9iL-UEme_b9-YB__9XK2bQoukDG1ygn3mHpkDxwaPibV-f6Vmwkwck0ysI5kHuPEOtyDA8mnWzCFrNqd8AgvA7NyuoNitxmu1mTweU7ExTQIbnla_NQbmTGKTYthsU-mZ3hwBIPSniLrPC4cRJWKLAiA31dQs8DMiq2HeU6oX4ju4nMjz9On8nL_KR2mUkmHZa-raa10-Ij1vHiBYjz4e5rjyBXA1zDegZE-Ez_7If1kCXLli_aqLOnxTlZLy-87BYYFzdreXG2EIwi8vgc5wyQiZKQy0nrTY5qOcA0kXXQNL2h61b3hpSv4vEr-zYxQVoe1j73Iw3pkzSmMaNsRtkhOJN2GpAkbCBfGg9CWmxtiWEbBlffVdsNZTFz8me8n-z7FnBt-66DKt8cvRVOTUu2Swq-r_aA5d5Wse61_VG6m6jIMSg0NCCPbg-5wAzE1PkDrRUKVppeALibswv-0fDcYRP3l-GgiaZ53WlFZ7IAtStoSLKDvgV4WxIam-3lEESPSTQjgBox8m9E6MrcxP7Hy7IdG41TPBRBguTYeyq6-l7QHQUW1Y0LeHESJrEJQVQnKzpnUTFL0jbs_KdF142vLEHIgivbemJlsaMja5Pm76FUKF7m39AXWZvBV7CMdrkjXmt_htWHI8qfOe5YWw3URwQmnJJlTuax0HIyVYMVjWx7N1Y6uw3sGkUzAWYHpNTaNHo3jDI4SCpMXmKyt7191EAmsjDpGwbGyKB2Q7aJGINTwHQK9qTxeYJHYBLp00uuYh0r665OwN6ZNCidnnYwSJCBj6rVqKkiiewDO2PpSXM-j0UJLVBdTR9LWuG7TKFFHzJ2BF1u6fTKsrCGAM-dhpODxroiei-A1T0OsMFj8-qKn0_tPBn_NPJBq-WwjNkiBqCFuxzDVl0NbsYM6hUAUJTzpR1Ha1pW1vxM_sZR7mdOdQ-xqg54AfwTQUV8WUoV9h03reiul2QXvRVd2wCSlT6Y0tjgho_9uU6YOK9k7xtpwU_E4hxXUp1gsfigdfcDVI_DN31mEfH23hwKRQ" charset="UTF-8"></script></head>
+
+<body>
+    <form action="">
+        <input type="text"><br>
+        <input type="text"><br>
+        <input type="text"><br>
+        <input type="text"><br>
+    </form>
+
+    <!-- 
+        Задание. Сделайте, чтобы у всех инпутов снизу был внешний отступ (margin-bottom).
+        1. Получите все инпуты, например с помощью querySelectorAll
+        2. Переберите полученную коллекцию например с помощью forEach
+            2.1 У функции-обработчика, которая будет передаваться в forEach определите
+            параметр input
+            2.2 Чтобы менять стили обращайтесь к свойству style у параметра input
+    -->
+
+    <script>
+        'use strict';
+        let inputs = document.querySelectorAll('input');
+        inputs.forEach(function (input) {
+            input.style.marginBottom = '5px';
+        });
+    </script>
+</body>
+
+</html>
